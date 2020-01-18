@@ -14,11 +14,7 @@
     },
     "arguments": {
         "execute": {
-            "inArguments": [
-                {
-                  "email": "{{Contact.Default.EmailAddress}}"
-                }               
-            ],
+            "inArguments": [],
             "outArguments": [],
             "url": "https://sfmc-twilio-sms.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
